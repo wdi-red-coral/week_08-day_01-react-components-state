@@ -119,6 +119,19 @@ about actors when the `hideActors` boolean is true.
 **HINT:** You can use ternaries or `if` statements in JSX to display different
 markup depending on whether a variable or expression is truthy.
 
+## Code Along: Delete Movies
+
+- Add the movies array to the state of the `App` component.
+- Create a function in the `App` component that will remove a movie from the state based on its ID
+- Pass that function as a prop to the `Movie` component
+- Add a delete button in the `Movie` component that will use the delete movie function passed in as a prop
+
+## Lab: Remove Actor
+
+- Create a function in the `App` component that will remove an actor from the state based on the Movie ID and actor name.
+- Pass that function as a prop to the `Movie` component
+- Add a delete button in the `Movie` component that will use the delete actor function passed in as a prop
+
 ## Additional Resources
 
 -   [React Docs - State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
