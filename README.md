@@ -99,16 +99,16 @@ component to allow us to "like" a movie and keep track of our opinions.
 
 To add this functionality, we'll need to do the following:
 
-1. Give our `Movie` component `state`. The component should store just one property in its state: a boolean
+- Give our `Movie` component `state`. The component should store just one property in its state: a boolean
    named `liked`.  It should default to `false`.
-1. Create a function that changes that `liked` property to `true`
-1. Render a "like" button with an `onClick`.
-1. Give some visual indication when a `Movie` is liked.
+- Create a function that changes that `liked` property to `true`
+- Render a "like" button with an `onClick`.
+- Give some visual indication when a `Movie` is liked.
 
 ## Code-Along: Add option to "Like" or "Unlike" a movie
 
-1. Update your function to toggle the liked property on the state object between true and false.
-1. Give some visual indication when a Movie is liked or not liked.
+- Update your function to toggle the liked property on the state object between true and false.
+- Give some visual indication when a Movie is liked or not liked.
 
 ## Lab: Toggle Actors Display
 
